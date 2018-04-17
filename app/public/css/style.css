@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.jumbotron {
+    margin-top: 75px;
+    border: 0px;
+    background: rgba(160, 160, 160, 0.6);
+    color: #000;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.display-4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.lead {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+.jumbo-btn {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 25px;
+}
