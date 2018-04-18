@@ -22,7 +22,7 @@
     <!-- My CSS Styles -->
     <link rel="stylesheet" href="css/style.css">
 
-    <title>Office Friend Finder</title>
+    <title>Friend Finder</title>
 
 </head>
 
@@ -38,27 +38,215 @@
                 <h3 class="masthead-brand">Friend Finder</h3>
                 <nav class="nav nav-masthead justify-content-center">
                     <a class="nav-link active" href="#">Home</a>
-                    <a class="nav-link" href="#">Survey</a>
                 </nav>
             </div>
         </header>
 
-        <!-- Main Content Area -->
-        <main role="main" class="inner cover">
+        <!-- Survey Content Area -->
+        <main role="main" class="inner cover-top">
             <h1 class="cover-heading">
                 <i class="far fa-user-circle icon"></i>
                 <strong>FIND YOUR FRIEND</strong>
             </h1>
             <p class="lead">Take the following survey and find your match. Once you have answered all of the questions, we will match you
                 to your friend!</p>
-            <p class="lead">
-                <a href="#" class="btn btn-lg btn-secondary">TAKE SURVEY</a>
-            </p>
+
+            <!-- Enter Name and Photo Information -->
+            <h3 class="about-you">About You</h3>
+            <p>Please answer all questions to the best of your ability.</p>
+            <p class="title-name">Name (Required)</p>
+            <input type="text" name="" id="name" class="form-control" required>
+            <p class="title-photo">Link to photo (Required)</p>
+            <input type="text" name="" id="photo" class="form-control" required>
+
+            <!-- Survey Section -->
+            <section id="friend-form">
+
+                <!-- Survey Question #1 -->
+                <section class="form-group">
+                    <h3 class="questions">Question 1</h3>
+                    <label for="item1" class="control-label">
+                        Bacon is the single greatest midnight snack.
+                    </label>
+                    <div>
+                        <select class="form-control" id="item1">
+                            <option value="" selected disabled>Choose</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                </section>
+
+                <!-- Survey Question #2 -->
+                <section class="form-group">
+                    <h3 class="questions">Question 2</h3>
+                    <label for="item1" class="control-label">
+                        Running is the best form of exercise.
+                    </label>
+                    <div>
+                        <select class="form-control" id="item1">
+                            <option value="" selected disabled>Choose</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                </section>
+
+                <!-- Survey Question #3 -->
+                <section class="form-group">
+                    <h3 class="questions">Question 3</h3>
+                    <label for="item1" class="control-label">
+                        Watching paint dry is a fun Saturday activity.
+                    </label>
+                    <div>
+                        <select class="form-control" id="item1">
+                            <option value="" selected disabled>Choose</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                </section>
+
+                <!-- Survey Question #4 -->
+                <section class="form-group">
+                    <h3 class="questions">Question 4</h3>
+                    <label for="item1" class="control-label">
+                        Dogs are better than cats.
+                    </label>
+                    <div>
+                        <select class="form-control" id="item1">
+                            <option value="" selected disabled>Choose</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                </section>
+
+                <!-- Survey Question #5 -->
+                <section class="form-group">
+                    <h3 class="questions">Question 5</h3>
+                    <label for="item1" class="control-label">
+                        If I was a millionaire, I would live in Hawaii.
+                    </label>
+                    <div>
+                        <select class="form-control" id="item1">
+                            <option value="" selected disabled>Choose</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                </section>
+
+                <!-- Survey Question #6 -->
+                <section class="form-group">
+                    <h3 class="questions">Question 6</h3>
+                    <label for="item1" class="control-label">
+                        The best flavor of ice cream is Mint Chocolate Chip.
+                    </label>
+                    <div>
+                        <select class="form-control" id="item1">
+                            <option value="" selected disabled>Choose</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                </section>
+
+                <!-- Survey Question #7 -->
+                <section class="form-group">
+                    <h3 class="questions">Question 7</h3>
+                    <label for="item1" class="control-label">
+                        The Office is the single greatest show, ever.
+                    </label>
+                    <div>
+                        <select class="form-control" id="item1">
+                            <option value="" selected disabled>Choose</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                </section>
+
+                <!-- Survey Question #8 -->
+                <section class="form-group">
+                    <h3 class="questions">Question 8</h3>
+                    <label for="item1" class="control-label">
+                        The Earth is NOT round.
+                    </label>
+                    <div>
+                        <select class="form-control" id="item1">
+                            <option value="" selected disabled>Choose</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                </section>
+
+                <!-- Survey Question #9 -->
+                <section class="form-group">
+                    <h3 class="questions">Question 9</h3>
+                    <label for="item1" class="control-label">
+                        If I was a contestant on Jeopardy, I would win.
+                    </label>
+                    <div>
+                        <select class="form-control" id="item1">
+                            <option value="" selected disabled>Choose</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                </section>
+
+                <!-- Survey Question #10 -->
+                <section class="form-group">
+                    <h3 class="questions">Question 10</h3>
+                    <label for="item1" class="control-label">
+                        Elvis Presley is still alive.
+                    </label>
+                    <div>
+                        <select class="form-control" id="item1">
+                            <option value="" selected disabled>Choose</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                </section>
+
         </main>
 
         <!-- Footer -->
         <footer class="mastfoot mt-auto">
-            <div class="inner">
+            <div class="inner my-footer">
                 <p>See the
                     <a class="link" href="#">API Friend List</a> and
                     <a class="link" href="#">GitHub repo</a>.</p>
