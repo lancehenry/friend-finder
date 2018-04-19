@@ -1,7 +1,7 @@
 var friendsArray = [
   {
     name: 'Jim Halpert',
-    photo: '',
+    photo: 'https://assets.rbl.ms/13752235/980x.png',
     scores: [
         '3',
         '2',
@@ -16,7 +16,7 @@ var friendsArray = [
   },
   {
     name: 'Michael Scott',
-    photo: '',
+    photo: 'http://www.sexymandarin.com/v2/wp-content/uploads/2013/07/who-are-the-most-lovable-idiots-on-tv-1876240108-apr-30-2013-1-600x500.jpg',
     scores: [
         '5',
         '3',
@@ -31,7 +31,7 @@ var friendsArray = [
   },
   {
     name: 'Dwight Schrute',
-    photo: '',
+    photo: 'https://78.media.tumblr.com/eca4448ac34a732443b9495be9400df9/tumblr_o8t561FfNs1ut6yz1o1_500.jpg',
     scores: [
         '1',
         '1',
