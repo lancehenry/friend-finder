@@ -239,6 +239,9 @@
                     </div>
                 </section>
 
+                <!-- Submit button -->
+                <button type="submit" class="btn btn-lg btn-secondary submit-btn">SUBMIT</a>
+
         </main>
 
         <!-- Footer -->
@@ -261,3 +264,49 @@
 </body>
 
 </html>
+
+<!-- Code below handles the form data -->
+<script type="text/javascript">
+
+    // Event listener on submit click and capture the form element/data
+    $('.submit-btn').on('click', function (event) {
+        event.preventDefault();
+
+        var newFriend = {
+            name: $('#name').val().trim(),
+            photo: $('#photo').val().trim(),
+            scores: [
+                $('#item1').val().trim(),
+                $('#item2').val().trim(),
+                $('#item3').val().trim(),
+                $('#item4').val().trim(),
+                $('#item5').val().trim(),
+                $('#item6').val().trim(),
+                $('#item7').val().trim(),
+                $('#item8').val().trim(),
+                $('#item9').val().trim(),
+                $('#item10').val().trim()
+            ]
+        };
+
+        $.post('/api/friends', newFriend, function (data) {
+            alert('Thank you!');
+
+            // Clears the form after submitting
+            $('#name').val('');
+            $('#photo').val('');
+            $('#item1').val('');
+            $('#item2').val('');
+            $('#item3').val('');
+            $('#item4').val('');
+            $('#item5').val('');
+            $('#item6').val('');
+            $('#item7').val('');
+            $('#item8').val('');
+            $('#item9').val('');
+            $('#item10').val('');
+                
+        });
+    });
+
+</script>
