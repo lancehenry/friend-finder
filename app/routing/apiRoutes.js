@@ -14,3 +14,8 @@ module.exports = function(app) {
       res.json(true);
   });
 };
+
+// Need to write a for loop to go through friends and calculate the scores from input and compare those to the other friends scores in the friends.js file, return closest
+for (var i = 0; i < friends.length; i++) {
+
+}
