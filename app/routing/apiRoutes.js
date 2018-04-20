@@ -12,13 +12,27 @@ module.exports = function(app) {
 
     // Set variables from users input fields
     var userData = req.body;
+    // console.log(userData);
+
+    // Variable for the users scores
+    var userScore = userData.scores;
+    // console.log(userScore);
+
+    // An array to hold the scores
+    var scoreArray = [];
 
     // Loops through the friends currently in database
     for (var i = 0; i < friends.length; i++) {
-      var scoreDifference = Math.abs(parseInt(userData.scores[i]) - parseInt(friends.scores[i]));
 
-      console.log(scoreDifference);
+      // Need to put another loop inside this loop in order to go through the scores array
+      for (var j = 0; j < userScore.length; j++) {
+        
+        var scoreDifference = Math.abs(parseInt(friends[i].scores[i]) - parseInt(userScore[j]));
+        
+      }
       
+      scoreArray.push(scoreDifference);
+      console.log(scoreArray);
       };
 
     friends.push(userData);
