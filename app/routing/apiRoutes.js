@@ -20,19 +20,20 @@ module.exports = function(app) {
 
     // An array to hold the scores
     var scoreArray = [];
+    var totalDifference = 0;
 
     // Loops through the friends currently in database
     for (var i = 0; i < friends.length; i++) {
-
+      
       // Need to put another loop inside this loop in order to go through the scores array
       for (var j = 0; j < userScore.length; j++) {
         
-        var scoreDifference = Math.abs(parseInt(friends[i].scores[i]) - parseInt(userScore[j]));
+        totalDifference = Math.abs(parseInt(friends[i].scores[i]) - parseInt(userScore[j]));
         
       }
       
-      scoreArray.push(scoreDifference);
-      console.log(scoreArray);
+      scoreArray.push(totalDifference);
+      // console.log(scoreArray);
       };
 
     friends.push(userData);
