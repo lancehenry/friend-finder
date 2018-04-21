@@ -6,7 +6,7 @@ body {
   background-color: #dfdfdf;
 }
 
-body {
+.body-style {
   display: -ms-flexbox;
   display: -webkit-box;
   display: flex;
