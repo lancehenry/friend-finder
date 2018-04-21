@@ -18,6 +18,9 @@ module.exports = function(app) {
     var userScore = userData.scores;
     // console.log(userScore);
 
+    // Per Jay:
+    // Lowest score variable, don't set to anything need to then compare those together. Push the closest friend to an object. This is what will then get returned to the DOM.
+
     // An array to hold the scores
     var scoreArray = [];
     var totalDifference = 0;
@@ -31,9 +34,7 @@ module.exports = function(app) {
         totalDifference = Math.abs(parseInt(friends[i].scores[i]) - parseInt(userScore[j]));
         
       }
-      
       scoreArray.push(totalDifference);
-      // console.log(scoreArray);
       };
 
     friends.push(userData);
