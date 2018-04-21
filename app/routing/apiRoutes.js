@@ -20,6 +20,11 @@ module.exports = function(app) {
 
     // Per Jay:
     // Lowest score variable, don't set to anything need to then compare those together. Push the closest friend to an object. This is what will then get returned to the DOM.
+    var bestFriend = {
+      name: '',
+      photo: '',
+      scores: []
+    };
 
     // An array to hold the scores
     var scoreArray = [];
@@ -38,6 +43,7 @@ module.exports = function(app) {
       };
 
     friends.push(userData);
+    
     res.json(true);
 
   });
