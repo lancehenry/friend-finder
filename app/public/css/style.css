@@ -124,6 +124,22 @@ a:hover {
   margin-top: 40px;
 }
 
+/* Modal styles
+--------------------------------------------------- */
+.modal-title {
+  align-content: left;
+  margin-left: 15px;
+}
+
+#matchName {
+  margin-left: -45px;
+}
+
+#matchImg {
+  max-width: 435px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 
 /* Footer
 --------------------------------------------------- */

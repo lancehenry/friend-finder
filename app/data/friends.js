@@ -61,7 +61,7 @@ var friendsArray = [
   },
   {
     name: 'Kevin Malone',
-    photo: 'https://upload.wikimedia.org/wikipedia/en/6/60/Office-1200-baumgartner1.jpg',
+    photo: 'http://images1.fanpop.com/images/photos/1300000/Kevin-in-Goodbye-Toby-kevin-malone-1392337-500-281.jpg',
     scores: [
         '4',
         '4',
@@ -76,7 +76,7 @@ var friendsArray = [
   },
   {
     name: 'Andy Bernard',
-    photo: 'https://i.imgur.com/Aq597h2.jpg?1',
+    photo: 'https://sporkbroken.files.wordpress.com/2011/10/andybernard.jpg',
     scores: [
         '3',
         '5',
@@ -91,7 +91,7 @@ var friendsArray = [
   },
   {
     name: 'Angela Martin',
-    photo: 'http://pixel.nymag.com/imgs/daily/vulture/2013/05/10/10-angela-kinsey-christmas-party.w529.h352.2x.jpg',
+    photo: 'http://entertainment.ie//images_content/rectangle/620x372/angela-martin.jpg',
     scores: [
         '1',
         '3',
@@ -121,7 +121,7 @@ var friendsArray = [
   },
   {
     name: 'Stanley Hudson',
-    photo: 'http://i.imgur.com/Mr7aRWT.png',
+    photo: 'https://static.tumblr.com/651072f5523aa428e800d82b0b3ccd44/xluwb1e/RO5nrulqw/tumblr_static_tumblr_static_b4jru1izvnwokokgkssww08wc_640.jpg',
     scores: [
         '3',
         '3',

@@ -43,6 +43,8 @@ module.exports = function(app) {
 
     var bestMatch = friends[bestFriend];
     res.json(bestMatch);
+
+    // module.exports = bestMatch;
     // console.log(bestMatch.name + '\n' + bestMatch.photo);
 
     friends.push(userData);
